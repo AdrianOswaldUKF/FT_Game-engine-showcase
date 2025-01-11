@@ -6,8 +6,15 @@ const router = createRouter({
 
     {
       path: '/',
-      name: 'home',
-      component: () => import('../views/HomeView.vue'),
+      name: 'HomeView',
+      component: () => import('@/views/HomeView.vue'),
+    },
+
+    {
+      path: '/engines/:slug',
+      name: 'EngineView',
+      component: () => import('@/views/EngineView.vue'),
+      props: true
     },
 
   ],

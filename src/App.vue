@@ -1,20 +1,34 @@
 <template>
 
-  <HomeView></HomeView>
+  <v-app>
+
+    <v-main>
+
+      <Navbar></Navbar>
+      <router-view :key="$route.fullPath"></router-view>
+      <Footer></Footer>
+
+    </v-main>
+
+  </v-app>
 
 </template>
 
 
 <script lang="ts">
-import HomeView from "@/views/HomeView.vue";
+import Footer from "@/components/Footer.vue";
+import Navbar from "@/components/Navbar.vue";
 
 export default {
 
   components: {
 
-    HomeView
+    Navbar,
+    Footer,
 
   },
+
+
 
 }
 </script>
