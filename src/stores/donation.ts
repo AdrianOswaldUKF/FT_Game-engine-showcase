@@ -20,20 +20,7 @@ export const useDonationStore = defineStore('donation', {
 
             this.donations.push({ name, amount });
 
-        },
-
-        clearDonations() {
-
-            this.donations = [];
-
-        },
-
-        removeDonation(index: number) {
-
-            this.donations = this.donations.filter((_, i) => i !== index);
-
         }
-
 
     },
 

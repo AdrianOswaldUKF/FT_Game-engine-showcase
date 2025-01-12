@@ -22,13 +22,6 @@
 
             </v-container>
 
-
-            <v-list-item-action>
-
-              <v-btn color="error" small @click="removeDonation(index)">Vymazať</v-btn>
-
-            </v-list-item-action>
-
           </v-list-item>
 
         </v-list>
@@ -37,15 +30,6 @@
 
       </v-card-text>
 
-      <v-card-actions>
-
-        <v-btn
-            color="error"
-            @click="clearDonations"
-            :disabled="!donations.length"
-        >Vymazať všetko</v-btn>
-
-      </v-card-actions>
 
     </v-card>
   </v-container>
@@ -66,24 +50,6 @@ export default {
 
       const store = useDonationStore();
       return store.donations;
-
-    },
-
-  },
-
-  methods: {
-
-    clearDonations() {
-
-      const store = useDonationStore();
-      store.clearDonations();
-
-    },
-
-    removeDonation(index: number) {
-
-      const store = useDonationStore();
-      store.removeDonation(index);
 
     },
 
