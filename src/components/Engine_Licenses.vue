@@ -2,8 +2,12 @@
 
   <v-container>
 
-    <v-data-table-virtual class="rounded-xl" :items="engine.licenses" item-value="Cena">
-
+    <v-data-table-virtual
+        class="rounded-xl"
+        :items="engine.licenses"
+        item-value="Cena"
+        :disable-sort="true"
+    >
       <template v-slot:item.Cena="{ item }">
 
         <EngineLicensePrice :price="item.Cena" />
