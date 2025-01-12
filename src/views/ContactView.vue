@@ -1,8 +1,8 @@
 <template>
 
-  <v-container class="d-flex justify-center mt-10">
+  <v-container class="d-flex justify-center mt-10 fill-height">
 
-    <v-card min-width="600" max-width="600">
+    <v-card class="rounded-xl" min-width="400">
 
 
       <v-card-title class="d-flex justify-center">Kontakt</v-card-title>
@@ -17,17 +17,17 @@
               required
           ></v-text-field>
 
-          <v-text-field
-              label="Priezvisko"
-              v-model="surname"
-              required
-          ></v-text-field>
 
           <v-text-field
               label="E-mail"
               v-model="email"
               required
               :rules="emailRules"
+          ></v-text-field>
+
+          <v-text-field
+              label="Správa"
+              required
           ></v-text-field>
 
           <v-container class="d-flex justify-center">
@@ -56,12 +56,12 @@ export default {
 
       valid: false,
       name: '',
-      surname: '',
       email: '',
       emailRules: [
         (v: string) => !!v || 'E-mail is required',
         (v: string) => /.+@.+\..+/.test(v) || 'E-mail must be valid',
       ],
+      message: ''
 
     };
 
@@ -71,13 +71,15 @@ export default {
 
     submitForm(): void {
 
-      if (this.$refs.form.validate()) {
+      const form = this.$refs.form as { validate: () => boolean };
 
-        alert('Form submitted');
+      if (form.validate()) {
+
+        alert('Správa bola úspešne odoslaná');
 
       }
 
-    },
+    }
 
   },
 };

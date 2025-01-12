@@ -14,6 +14,7 @@ export interface Engine {
     image: string;
     description: string;
     source: string;
+    website: string;
     versions: Version[];
     images: string[];
     pros: string[];

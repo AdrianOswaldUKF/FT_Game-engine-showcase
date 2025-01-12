@@ -63,7 +63,8 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+   background: url("public/img/background.jpg") no-repeat center center fixed;
+   background-size: cover;
   transition:
           color 0.5s,
           background-color 0.5s;

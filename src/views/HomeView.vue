@@ -1,8 +1,8 @@
 <template>
 
-  <v-container>
+  <v-container class="d-flex justify-center align-center fill-height">
 
-    <v-card class="rounded-xl elevation-4">
+    <v-card class="rounded-xl elevation-4 mt-16">
 
       <v-card-title class="d-flex justify-center align-center">
 

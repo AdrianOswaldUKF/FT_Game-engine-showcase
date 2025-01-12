@@ -4,14 +4,15 @@
 
     <v-tabs>
 
-      <v-tab to="/">Home</v-tab>
+      <v-tab to="/">Domov</v-tab>
       <v-tab v-for="(engine, index) in engines" :key="index" :to="'/engines/' + engine.slug">{{ engine.name }}</v-tab>
-      <v-tab to="/contact">Contact</v-tab>
+      <v-tab to="/contact">Kontakt</v-tab>
+      <v-tab to="/donation">Donation</v-tab>
 
     </v-tabs>
 
     <v-spacer></v-spacer>
-    <v-switch class="d-flex justify-center mr-15" @click="toggleTheme">toggle theme</v-switch>
+    <v-switch class="d-flex justify-center" @click="toggleTheme"></v-switch>
 
   </v-app-bar>
 

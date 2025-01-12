@@ -2,7 +2,7 @@
 
   <v-container>
 
-    <v-data-table-virtual :items="engine.licenses" item-value="Cena">
+    <v-data-table-virtual class="rounded-xl" :items="engine.licenses" item-value="Cena">
 
       <template v-slot:item.Cena="{ item }">
 

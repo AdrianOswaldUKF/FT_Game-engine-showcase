@@ -4,8 +4,13 @@
 /* Default Vue CSS */
 
 #app {
+  max-width: 1280px;
   margin: 0 auto;
   font-weight: normal;
+}
+
+.v-application {
+  background: transparent !important;
 }
 
 a,
@@ -15,6 +20,7 @@ a,
   transition: 0.4s;
   padding: 3px;
 }
+
 
 @media (hover: hover) {
   a:hover {
@@ -33,4 +39,11 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+}
+
+/* Custom CSS */
+
+.home-text {
+  max-width: 850px;
+  margin-top: 10vw;
 }
