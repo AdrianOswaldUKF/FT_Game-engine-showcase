@@ -74,12 +74,3 @@ export default {
 };
 
 </script>
-
-<style scoped>
-
-.v-card {
-  max-width: 400px;
-  margin: auto;
-}
-
-</style>
