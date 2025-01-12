@@ -17,6 +17,13 @@ const router = createRouter({
       props: true
     },
 
+    {
+      path: '/contact',
+      name: 'ContactView',
+      component: () => import('@/views/ContactView.vue'),
+      props: true
+    }
+
   ],
 })
 

@@ -19,10 +19,20 @@
 
 </template>
 
+<style scoped>
+
+.footer_text {
+  color: red;
+}
+
+</style>
+
 <script lang="ts">
+
 export default {
 
   name: "Footer"
 
 }
+
 </script>

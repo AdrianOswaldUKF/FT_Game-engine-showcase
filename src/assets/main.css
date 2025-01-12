@@ -1,31 +1,36 @@
 @import 'base.css';
 
+
+/* Default Vue CSS */
+
 #app {
-  max-width: 1700px;
   margin: 0 auto;
-  padding: 5rem;
+  font-weight: normal;
 }
 
-.footer_text {
-  color: red;
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
 }
 
-.v-application {
-  background: transparent !important;
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
 }
 
-.mt-5rem {
-  margin-top: 5rem;
-}
-
-.visible {
-  background: var(--white) !important;
-}
-
-@media (prefers-color-scheme: dark) {
-
-  .visible {
-    background: var(--black) !important;
+@media (min-height: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
   }
 
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
 }

@@ -1,13 +1,12 @@
 {
   "engines": [
-
     {
       "name": "Unity",
       "slug": "unity",
       "image": "unity.jpg",
-      "id": 1,
       "description": "Unity je multiplatformový herný engine vyvinutý spoločnosťou Unity Technologies, ktorý bol prvýkrát oznámený a vydaný v júni 2005 na konferencii Apple Worldwide Developers Conference ako herný engine pre Mac OS X. Odvtedy bol engine postupne rozšírený tak, aby podporoval rôzne platformy pre počítače, mobilné zariadenia, konzoly a virtuálnu realitu. Je obľúbený najmä pre vývoj mobilných hier pre systémy iOS a Android, považuje sa za ľahko použiteľný pre začínajúcich vývojárov a je populárny pre vývoj nezávislých hier.\n\n                            Engine sa dá použiť na tvorbu trojrozmerných (3D) a dvojrozmerných (2D) hier, ako aj interaktívnych simulácií a iných zážitkov. engine si osvojili aj odvetvia mimo videoherného priemyslu, napríklad filmový, automobilový, architektonický, strojársky, stavebný",
       "source": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+      "website": "https://unity.com/",
       "versions": [
 
         {
@@ -36,10 +35,11 @@
         }
 
       ],
+
       "images": [
-        "img/unity1.png",
-        "img/unity2.png",
-        "img/unity3.png"
+        "unity1.png",
+        "unity2.png",
+        "unity3.png"
       ],
 
       "pros": [
@@ -100,7 +100,162 @@
         }
 
       ]
+    },
+    {
+      "name": "Unreal Engine",
+      "slug": "unreal",
+      "image": "unreal.jpg",
+      "description": "Unreal Engine (UE) je séria herných enginov pre 3D počítačovú grafiku vyvinutá spoločnosťou Epic Games, ktorá bola prvýkrát predstavená v roku 1998 v strieľačke z pohľadu prvej osoby Unreal. Pôvodne bol vyvinutý pre počítačové strieľačky z pohľadu prvej osoby, ale odvtedy sa používa v rôznych žánroch hier a bol prijatý aj v iných odvetviach, najmä vo filmovom a televíznom priemysle. Unreal Engine je napísaný v jazyku C++ a vyznačuje sa vysokou mierou prenosnosti, pričom podporuje širokú škálu platforiem pre stolové počítače, mobilné zariadenia, konzoly a virtuálnu realitu.\n\n                            Najnovšia generácia, Unreal Engine 5, bola uvedená na trh v apríli 2022. Jeho zdrojový kód je k dispozícii na GitHub a komerčné využitie sa poskytuje na základe modelu licenčných poplatkov, pričom spoločnosť Epic si účtuje 5 % z príjmov nad 1 milión USD, od ktorých sa upúšťa v prípade hier uverejnených v obchode Epic Games Store. Epic do enginu zahrnul funkcie od získaných spoločností, ako je Quixel, čo sa považuje za pomoc pri príjmoch Fortnite.\n                            \n                            V roku 2014 bol Unreal Engine vyhlásený Guinnessovou knihou rekordov za \"najúspešnejší videoherný engine na svete\".",
+      "source": "https://en.wikipedia.org/wiki/Unreal_Engine",
+      "website": "https://www.unrealengine.com/en-US",
+      "versions": [
 
+        {
+          "name": "Prvá Generácia",
+          "description": "Prvá generácia Unreal Engine bola vyvinutá Timom Sweeneyom, zakladateľom spoločnosti Epic Games. Po vytvorení editačných nástrojov pre jeho shareware hry ZZT (1991) a Jill of the Jungle (1992), Sweeney začal v roku 1995 písať engine pre výrobu hry, ktorá neskôr vznikla ako first-person shooter známy ako Unreal. Po niekoľkých rokoch vývoja sa engine prvýkrát predstavil pri uvedení hry v roku 1998, aj keď MicroProse a Legend Entertainment mali už oveľa skôr prístup k tejto technológii a licencovali ju v roku 1996. Podľa rozhovoru napísal Sweeney 90 percent kódu v engine, vrátane grafiky, nástrojov a systému pre pripojenie sietí.\n\n                Pôvodne sa engine úplne spoliehal na softvérové vykresľovanie, čo znamenalo, že výpočty grafiky vykonávala centrálne spracovávajúca jednotka (CPU). Avšak v priebehu času dokázal využívať možnosti poskytované dedikovanými grafickými kartami, s dôrazom na API Glide, špeciálne navrhnuté pre 3dfx akcelerátory. Hoci bola podpora pre OpenGL a Direct3D, uvádzali pomalší výkon v porovnaní s Glide kvôli ich nedostatočnému riadeniu textúr v danom období. Sweeney sa osobitne vyjadril o kvalite ovládačov OpenGL pre spotrebiteľský hardware, opisujúc ich ako \"extrémne problematické, chybné a netestované\", a označil kód implementácie za \"strašný\" na rozdiel od jednoduchšej a čistejšej podpory pre Direct3D. Pokiaľ ide o zvuk, Epic využíval Galaxy Sound System, softvér vytvorený v assembleri, ktorý integroval technológie EAX a Aureal a umožňoval používanie tracker hudby, čo poskytlo dizajnérom úrovní flexibilitu v tom, ako sa hudba hrala v konkrétnom bode na mapách. Steve Polge, autor doplnku Reaper Bots pre Quake, naprogramoval systém umelej inteligencie na základe znalostí, ktoré získal u svojho predchádzajúceho zamestnávateľa IBM pri navrhovaní routerových protokolov.\n              "
+        },
+
+        {
+          "name": "Unreal Engine 2",
+          "description": "V októbri informovala stránka IGN na základe rozhovoru so spoločnosťou Voodoo Extreme, že Sweeney robí výskum pre svoj engine nasledujúcej generácie. S vývojom začatým o rok neskôr, druhá verzia sa predstavila v roku 2002 s hrou America's Army, bezplatným multiplayerovým strieľačom vyvinutým armádou USA ako nástroj pre nábor. Krátko potom by Epic vydal Unreal Championship pre Xbox, jeden z prvých hier využívajúcich službu Xbox Live od Microsoftu.\n\n                Aj keď táto generácia bola založená na svojom predchodcovi, videli sme významný pokrok v oblasti vykresľovania, ako aj nové vylepšenia v sade nástrojov. Engine bol schopný spúšťať úrovne takmer 100-krát podrobnejšie ako tie v hre Unreal, integroval rôzne funkcie, vrátane nástroja pre kinematografické úpravy, časticových systémov, exportných doplnkov pre 3D Studio Max a Maya a systému skeletálnej animácie, ktorý bol prvýkrát predstavený v verzii pre PlayStation 2 hry Unreal Tournament. Okrem toho bola používateľská rozhranie pre UnrealEd prepísaná v jazyku C++ s využitím sady nástrojov wxWidgets, o ktorej Sweeney povedal, že vtedy bola \"najlepšou dostupnou vecou\".\n\n                Epic využívala fyzikálny engine Karma, softvér od tretej strany od štúdia Math Engine so sídlom vo Veľkej Británii, na riadenie fyzikálnych simulácií, ako sú kolízie hráčov typu ragdoll a ľubovoľná dynamika tuhých tiel. S Unreal Tournament 2004 bola úspešne implementovaná hratelnosť s vozidlami, umožňujúca boj na veľkú vzdialenosť. Zatiaľ čo Unreal Tournament 2003 mal podporu pre fyziku vozidiel cez engine Karma, čo demonštroval testovací mapu s \"náhle zostrojeným vozidlom\", až kým Psyonix nepoužil modifikáciu základného kódu od Epic, hra nedostala úplne vykódované vozidlá. Impresionovaní ich úsilím sa Epic rozhodol zahrnúť toto do svojho nástupcu ako oficiálny herný mód pod názvom Onslaught tým, že najal Psyonix ako dodávateľa. Psyonix neskôr vyvinula hru Rocket League, ktorá bola v roku 2019 odkúpená Epicom.\n\n                Špecializovaná verzia UE2 nazývaná UE2X bola navrhnutá pre hru Unreal Championship 2: The Liandri Conflict na platforme pôvodného Xboxu a obsahovala optimalizácie špecifické pre túto konzolu. V marci 2011 odhalilo Ubisoft Montreal, že UE2 úspešne bežal na hernom systéme Nintendo 3DS vo hre Tom Clancy's Splinter Cell 3D. \"3DS je výkonný a dokážeme na tejto konzole spustiť Unreal Engine, čo je pomerne impozantné pre prenosné zariadenie, a 3D neovplyvňuje výkon (vďaka mojim úžasným programátorom),\" uviedol Ubisoft.\n              "
+        },
+
+        {
+          "name": "Unreal Engine 3",
+          "description": "Obrázky z Unreal Engine 3 boli prezentované v júli 2004, v čase, keď bol engine už viac ako 18 mesiacov vo vývoji. Engine bol založený na prvej generácii, ale obsahoval nové funkcie. \"Základné architektonické rozhodnutia viditeľné pre programátorov v objektovo orientovanom návrhu, prístupe k skriptovaniu založenom na dátach a pomerne modulárnemu prístupu k podsystémom zostali [zo Unreal Engine 1]. Ale časti hry, ktoré sú skutočne viditeľné pre hráčov - renderovanie, fyzikálny systém, zvukový systém a nástroje - sú všetky viditeľne nové a dramaticky výkonnejšie,\" povedal Sweeney. Na rozdiel od Unreal Engine 2, ktorý stále podporoval fixnú funkčnú pipeline, bol Unreal Engine 3 navrhnutý tak, aby využíval plne programovateľný hardvér shaderov. Všetky výpočty osvetlenia a tieňovania sa vykonávali na úrovni pixelov, namiesto na úrovni vrcholov. Z hľadiska vykresľovania poskytoval Unreal Engine 3 podporu pre renderer s gama-korekciou vysokého dynamického rozsahu. Prvé hry vydané s použitím Unreal Engine 3 boli Gears of War pre Xbox 360 a RoboBlitz pre Windows, ktoré boli obidve vydané 7. novembra 2006.\n\n                Pôvodne podporoval Unreal Engine 3 len platformy Windows, PlayStation 3 a Xbox 360, pričom iOS (prvýkrát demonštrované s Epic Citadel) a Android boli pridané neskôr v roku 2010, pričom Infinity Blade bol prvým titulom pre iOS a Dungeon Defenders prvým titulom pre Android. V roku 2011 bolo oznámené, že engine bude podporovať Adobe Flash Player 11 prostredníctvom hardvérovo akcelerovaných API pre Stage 3D a že sa používa v dvoch hrách pre Wii U, Batman: Arkham City a Aliens: Colonial Marines. V roku 2013 sa Epic spojil s Mozillou, aby priniesli Unreal Engine 3 na web; s použitím podjazyka asm.js a kompilátora Emscripten sa im podarilo portovať engine za štyri dni.\n              "
+        },
+
+        {
+          "name": "Unreal Engine 4",
+          "description": "V auguste 2005 Mark Rein, viceprezident spoločnosti Epic Games, odhalil, že vývoj Unreal Engine 4 prebiehal už dva roky. \"Ľudia si to neuvedomujú, ale sme už dva roky do vývoja Unreal Engine 4. Určite ešte nemáme kompletný tím, je to len jeden chlap a asi si viete tipnúť, kto to je,\" povedal C&VG. V rozhovore na začiatku roku 2008 Sweeney uviedol, že prakticky jedinou osobou pracujúcou na engine bol on sám, avšak potvrdil, že jeho výskumné a vývojové oddelenie sa začne neskôr v tom istom roku rozširovať a bude vyvíjať engine paralelne s Unreal Engine 3. \"V niektorých ohľadoch pripomíname firmu vyvíjajúcu hardvér so svojím generatívnym vývojom technológií. Budeme mať tím vyvíjajúci Unreal Engine 3 ešte niekoľko rokov a tím, ktorý sa začne pripravovať na Unreal Engine 4. A potom, keď začne prechod na nasledujúcu generáciu, presunieme všetkých tam. V skutočnosti vyvíjame súčasne paralelne pre viaceré generácie,\" povedal.\n\n                V februári 2012 Rein vyhlásil: \"Ľudia budú neskôr tento rok šokovaní, keď uvidia Unreal Engine 4.\" Epic odhalil UE4 obmedzenému počtu účastníkov na Game Developers Conference 2012 a video enginu demonštrované technickým umelcom Alanom Willardom bolo zverejnené pre verejnosť 7. júna 2012 na GameTrailers TV. Jednou z hlavných plánovaných funkcií pre UE4 bola real-time globálna iluminácia pomocou voxel cone tracing, eliminujúca predvypočítané osvetlenie. Avšak táto funkcia, nazvaná Sparse Voxel Octree Global Illumination (SVOGI) a predstavená v deme Elemental, bola nahradená podobným, ale menej výpočtovo náročným algoritmom z dôvodu obáv o výkon. UE4 tiež zahŕňa nový vizuálny systém skriptovania \"Blueprints\" (nástupca \"Kismet\" z UE3), ktorý umožňuje rýchly vývoj herného logického systému bez použitia kódu a znižuje rozdiel medzi technickými umelcami, dizajnérmi a programátormi.\n              "
+        },
+
+        {
+          "name": "Unreal Engine 5",
+          "description": "Unreal Engine 5 obsahuje Nanite, virtualizovaný systém geometrie, ktorý umožňuje vývojárom hier používať ľubovoľne vysokokvalitné siete s automaticky generovaným Level of Detail, a Lumen, dynamický systém globálneho osvetlenia a odrazov, ktorý využíva softvérové a hardvérové sledovanie lúčov. Bol predstavený v máji 2020 a oficiálne vydaný v apríli 2022."
+        }
+
+      ],
+
+      "images": [
+        "unreal1.png",
+        "unreal2.png",
+        "unreal3.png"
+      ],
+
+      "pros": [
+
+        "Úžasné grafické schopnosti a fotorealistický rendering priamo zo základu.",
+        "Výkonný vizuálny skriptovací nástroj (Blueprints) pre ľudí bez programátorského zázemia.",
+        "Robustný a funkčne bohatý súbor nástrojov pre vývoj hier.",
+        "Vstavané fyzikálne a renderingové systémy pre vysokokvalitnú grafiku.",
+        "Pokročilé osvetlenie a efekty častíc pre pohlcujúce zážitky.",
+        "Silný dôraz na vývoj hier typu AAA.",
+        "Absencia podielu zo zisku do určitého prahu pre komerčné projekty.",
+        "Rozsiahla dokumentácia a vzdelávacie zdroje.",
+        "Silné sieťové schopnosti pre multiplayerové hry.",
+        "Nepretržité aktualizácie a vylepšenia podporované spoločnosťou Epic Games."
+
+      ],
+
+      "cons": [
+
+        "Tažší na naučenie, najmä pre začiatočníkov a ľudí bez programátorského zázemia.",
+        "Môže byť pre niektorých preplnený množstvom funkcií a zložitosťou.",
+        "Menej vhodný pre vývoj 2D hier v porovnaní s Unity.",
+        "Vyššie nároky na systémové prostriedky, čo môže ovplyvniť výkon na slabších zariadeniach.",
+        "Väčšie súbory a dlhšie načítanie projektov.",
+        "Obmedzený výber assetov v porovnaní s Unity Asset Store.",
+        "Vyžaduje silnejšiu hardvérovú výbavu pre plynulý vývoj.",
+        "Skriptovanie pomocou Blueprintov môže mať obmedzenia pre veľmi komplexné systémy.",
+        "Prispôsobovanie a úpravy môžu vyžadovať hlbšie znalosti v jazyku C++.",
+        "Problémy s optimalizáciou výkonu pre menej skúsených vývojárov."
+
+      ],
+
+      "licenses": [
+
+        {
+          "Edícia": "Štandartná Licencia",
+          "Cena": "Zdarma"
+        },
+
+        {
+          "Edícia": "Enterprise Licencia",
+          "Cena": "1 500$ za 1 osobu/rok"
+        },
+
+        {
+          "Edícia": "Vlastná Licencia",
+          "Cena": "Kontaktujte <a href=\"https://www.unrealengine.com/en-US/license\">Unreal Engine</a>"
+        }
+
+      ]
+    },
+    {
+      "name": "Godot Engine",
+      "slug": "godot",
+      "image": "godot.jpg",
+      "description": "Godot je multiplatformový, bezplatný a open-source herný engine vydaný pod permissívnou licenciou MIT. Bol pôvodne vyvinutý argentínskymi softvérovými vývojármi Juanom Linietsky a Arielom Manzurom pre niekoľko spoločností v Latinskej Amerike pred jeho verejným uvedením v roku 2014. Vývojové prostredie beží na mnohých platformách a môže exportovať aj do ďalších. Je navrhnutý na vytváranie 2D aj 3D hier zameraných na PC, mobilné zariadenia a webové platformy a môže byť tiež použitý na vývoj softvéru neobmedzeného na hry, vrátane editorov.\n",
+      "source": "https://en.wikipedia.org/wiki/Godot_(game_engine)",
+      "website": "https://godotengine.org/",
+      "versions": [
+
+        {
+          "name": "Obdobie Closed-Source (2001–2014)",
+          "description": "Juan 'reduz' Linietsky a Ariel 'punto' Manzur spoluzaložili spoločnosť Codenix v roku 1999, konzultačnú spoločnosť pre vývoj hier. Už v roku 2001 začali pracovať na engine-i s kódovým názvom \"Larvotor\", ktorý bol licencovaný tretím stranám v Argentíne. Počas nasledujúcich desiatich rokov bol engine premenovaný na \"Legacy\", \"NG3D\", \"Larvita\" a nakoniec na \"Godot\". Názov \"Godot\" bol zvolený kvôli jeho vzťahu k divadelnej hre Samuela Becketta Čakanie na Godota, pretože reprezentuje nekonečné túžby po pridávaní nových funkcií do enginu, ktoré by ho priblížili k vyčerpávajúcemu produktu, ale nikdy sa to nedosiahne. Linietsky a Manzur sa pridali k spoločnosti OKAM a spolupracovali so viacerými štúdiami v období uzavretého zdrojového kódu vrátane Square Enix. Linietsky naznačil, že ich práca bola vtedy ovplyvnená politickou a ekonomickou nestabilitou v Argentíne.\n              "
+        },
+
+        {
+          "name": "Éra voľného a Open-Source softvéru (2014 - súčasnosť)",
+          "description": "K roku 2014 plánoval Linietsky odísť z Argentíny a uvoľnil zdrojový kód pre Godot verejnosti na platforme GitHub pod licenciou MIT. Godot sa pripojil k organizácii Software Freedom Conservancy (SFC) 4. novembra 2015. 22. júna 2016 získal Godot ocenenie \"Mission Partners\" vo výške 20 000 dolárov od Mozilla Open Source Support (MOSS), ktoré bolo určené na pridanie podpory pre WebSockets, WebAssembly a WebGL 2.0.\n\n                Aktualizácia 3.0 pre Godot zahŕňala riešenie dlhého zoznamu požadovaných funkcií, ktoré vyžadovali výraznú prepracovanie enginu, čo bolo v období uzavretého zdrojového kódu nemožné z dôvodu komerčných obmedzení. S podporou Miguela de Icazu získal Godot v roku 2017 dar vo výške 24 000 dolárov od Microsoftu na implementáciu jazyka C# ako skriptovacieho jazyka v Godote. Bola spustená platforma Patreon, vďaka ktorej mohli Linietsky a Verschelde pracovať na projekte na plný úväzok. Verzia 3.0 bola uvedená na trh v roku 2018. Aktualizácia 3.1 pridala renderovač OpenGL ES 2.0 zameraný na mobilné zariadenia, pretože v tom čase bola podpora ES 3.0 zo strany výrobcov obmedzená.\n\n                V roku 2019 boli založené dva tímy, pričom tím Linietského sa zameral na vetvu Vulkan (následne vydanú ako 4.0), a tím Verschelde pokračoval v aktualizáciách pre vetvu 3.x. Linietsky naznačil, že problémom bolo, že vetva 3.x bola vytvorená so staršími architektonickými princípmi, ako sú jednojadrové procesory. Preto bola úmyslom prebudovať jadrové architektúry pre 4.0 a zohľadniť moderné princípy.\n\n                V roku 2020 získal Godot ocenenie vo výške 250 000 dolárov od spoločnosti Epic Games na vylepšenie grafického renderovania a jazyka GDScript, ktorý bol použitý na financovanie Linietského a Georgea Marquesa na dva roky a uvoľnenie finančných prostriedkov z donácií na iné účely. Godot tiež získal granty od Reality Labs spoločnosti Meta Platforms v rokoch 2020 a 2021. Vetva 4.0 bola vydávaná vo forme alfy na začiatku roku 2022 a bola v priebehu roka doladená. V auguste Linietsky a niekoľko ďalších členov tímu Godot založili spoločnosť W4 Games, ktorá ponúka komerčné služby založené na enginu, vrátane portov na konzoly, ktoré nemôžu byť zahrnuté do jeho open-source kódového základu. V novembri Godot oznámil plány prechodu zo SFC na vlastnú novovytvorenú Godot Foundation.\n\n                Plné vydanie aktualizácie 4.0 s podporou Vulkanu sa uskutočnilo v roku 2023, ako aj príchod Godot enginu na platformu Epic Games Store. Verzia na platforme Epic je identická s ostatnými z hľadiska obsahu a licencie, pričom platforma slúži len ako distribučný kanál a na aktualizácie. V septembri spoločnosť Unity Technologies oznámila zásadné zmeny v licencovaní pre Unity engine vrátane pridania \"poplatkov za spustenie\", ktoré by účtovali používateľov pri inštalácii hier v Unity. V dôsledku toho darovala spoločnosť Re-Logic 100 000 dolárov Godotu a ďalej oznámila, že bude prispievať 1 000 dolárov mesačne, aby podporila open-source alternatívu k Unity.\n              "
+        }
+
+      ],
+
+      "images": [
+        "godot1.png",
+        "godot2.webp",
+        "godot3.png"
+      ],
+
+      "pros": [
+
+        "Open-source: Prístup k celému zdrojovému kódu umožňuje prispôsobenie a vývoj podľa komunity.",
+        "Multiplatformovosť: Podporuje viaceré platformy ako Windows, macOS, Linux, Android, iOS a web, čo zjednodušuje distribúciu.",
+        "Jednoduchosť použitia: Intuitívne rozhranie a skriptovací jazyk (GDScript) zjednodušujú vývoj hier pre začiatočníkov.",
+        "Nízka hmotnosť: Engine je ľahký, čo vedie k rýchlejšiemu načítaniu a lepšej výkonnosti, najmä na zariadeniach s nižšími špecifikáciami.",
+        "Aktívna komunita: Oddaná a rastúca komunita poskytuje podporu, návody a zdroje pre užívateľov.",
+        "Vizuálne programovanie: Ponúka vizuálny systém programovania okrem kódovania, čo umožňuje neprogramátorom vytvárať hry.",
+        "Podpora 2D a 3D: Schopný pracovať s 2D aj 3D vývojom hier s integrovanými nástrojmi pre obidva typy hier.",
+        "Pravidelné aktualizácie: Neustále vylepšenia a aktualizácie prinášajú nové funkcie a zlepšenia do enginu.",
+        "Fyzikálny engine: Integrovaný fyzikálny engine zjednodušuje implementáciu realistických fyzikálnych efektov.",
+        "Bez licenčných poplatkov: Žiadne licenčné poplatky, čo umožňuje vývojárom zarábať plné zisky z ich hier."
+
+      ],
+
+      "cons": [
+
+        "Obmedzené zdroje: V porovnaní s niektorými inými enginmi môže mať Godot menší obchod s prostriedkami a menej tretích strán ponúkajúcich zdroje.",
+        "Krivka učenia: Aj keď je priateľský pre začiatočníkov, ovládnutie pokročilejších funkcií môže vyžadovať čas a úsilie.",
+        "Adoptácia na trhu: Nie je tak široko prijímaný ako niektoré iné enginy, čo môže viesť k menšiemu množstvu zdieľaných zdrojov a podpory komunity.",
+        "Iba GDScript: Hoci je výkonný, GDScript môže obmedziť vývojárov, ktorí uprednostňujú prácu s inými programovacími jazykmi.",
+        "Výkon pri veľkých projektoch: Manipulácia s veľkými projekty môže spôsobiť výkonnostné problémy v porovnaní s niektorými inými enginmi.",
+        "Menej zabudovaných nástrojov: Môže chýbať niektoré špecializované zabudované nástroje dostupné v iných enginoch pre špecifické úlohy.",
+        "Optimalizácia pre mobilné zariadenia: Aj keď sa zlepšuje, optimalizácia pre mobilné zariadenia môže potrebovať ďalšie vylepšenia pre určité typy zariadení.",
+        "Pipeline pre zdroje: Pracovný postup pre import a manipuláciu so zdrojmi môže byť menej prepracovaný v porovnaní s inými enginmi.",
+        "Veľkosť komunity: Aj keď rastie, komunita môže byť menšia v porovnaní s etablovanými enginmi, čo ovplyvňuje dostupnú podporu."
+
+      ],
+
+      "licenses": [
+
+        {
+          "Edícia": "Licencia",
+          "Cena": "Zdarma"
+        }
+
+      ]
     }
   ]
 }

@@ -24,7 +24,7 @@ const vuetify = createVuetify({
     components,
     directives,
     theme: {
-        defaultTheme: window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        defaultTheme: window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light',
     },
 })
 
